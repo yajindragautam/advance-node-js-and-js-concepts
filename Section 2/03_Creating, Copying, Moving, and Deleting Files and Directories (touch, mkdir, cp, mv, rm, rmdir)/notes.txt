@@ -1,0 +1,62 @@
+--- CREATING FILES AND FOLDERS ---
+
+1: Create new file
+touch filename
+
+2: Create multiple file at one
+touch filename filename
+
+3: Create new directory  
+mkdir directoryname
+
+4: Create multiple new directory
+mkdir directoryname directoryname1 directoryname2
+
+
+--- COPY FILES AND FOLDERS ---
+
+5: COPY file and pest it to another  folder
+cp filename directoryname
+eg: cp index.js happy -> this command copy index.js file and pest inside happy folder 
+
+--- Move FILES AND FOLDERS ---
+6: Move file and pest it to another  folder
+mv filename directoryname
+eg: mv index.js happy -> this move copy index.js file and pest inside happy folder 
+
+
+--- Rename FILES AND FOLDERS ---
+7: Rename file and pest it to another  folder
+mv filename newfilename
+eg: mv index.js server.js -> this command rename index.js file and pest inside happy folder 
+
+--- Delete FILES ---
+7: delete file 
+rm filename 
+eg: rm index.js server.js -> this command delete index.js file 
+
+--- Delete multiple FILES ---
+7: delete multiple file 
+rm filename filename filename 
+eg: rm index.js app.js server.js -> this command delete multiple file 
+
+--- Delete FOLDERS/directory ---
+7: delete directoryname 
+rmdir directoryname/FOLDERS 
+eg: rmdir hurry -> this command delete directory/folder 
+
+--- Delete multiple FOLDERS/directory ---
+7: delete directoryname 
+rmdir directoryname directoryname 
+eg: rmdir hurry -> this command delete directory/folder 
+
+-- Delete FOLDERS.directory which have file and folder
+8: Delete all file and folder inside that directory
+rm -r happy
+
+-- Problem to solve
+Create 1000 file using .sh command
+
+for i in{1..1000}; do touch "app$i.js" done
+
+Delete 1000 file using .sh command
